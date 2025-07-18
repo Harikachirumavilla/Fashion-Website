@@ -41,6 +41,6 @@ fashion-landing-page/
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+###  Clone the Repository
 ```bash
 git clone https://github.com/Harikachirumavilla/fashion-landing-page.git
