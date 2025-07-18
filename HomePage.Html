@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlissMart</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="https://logo-variant.algo.design.vpsvc.com/68340d0aefa87409caf42ae1?sign=0e25b4a188f2c86f39e13f492a4132d8848e835e82c9a96837d32c7240bbbff7&backgroundMode=TRANSPARENT&type=PNG&logoVariation=textArc&width=400&height=400">
+  <link rel="stylesheet" href="HomePageStyles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="b">B</span>liss<span class="m">M</span>art
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="HomePage.html">HOME</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">CONTACT</a></li>
+
+      </ul>
+      <button id="open-cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+  </header>
+  
+<div id="side-cart">
+  <button id="close-cart-btn">×</button>
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <p><strong>Subtotal:</strong> <span id="subtotal">$0.00</span></p>
+  <button class="checkout-btn" style="width: 100%; padding: 10px;">Checkout</button>
+</div>
+
+
+
+  <section class="hero">
+  <div class="hero-text">
+    <h1><span>BLISSMART STYLE HUB</span></h1>
+    <p style="margin-top: 20px; font-weight: bold;">Your ultimate fashion destination where elegance meets trend.</p>
+    <p>Explore our curated collections, handpicked accessories, and wardrobe essentials for every occasion.</p>
+    <button class="Explore-button">Explore More</button>
+  </div>
+  <div class="hero-image">
+    <img src="./logo.png" alt="Fashion Image" />
+  </div>
+</section>
+
+<section class="promotional-banner">
+  <div class="banner-overlay">
+    <div class="banner-content">
+      <h2>Exclusive Offers Just for You!</h2>
+      <p>Shop now and enjoy up to <strong>50% off</strong> on selected items. Limited time only!</p>
+      <a href="#" class="banner-btn">Shop Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="featured-collections">
+  <p class="tagline">Featured Collections</p>
+  <h1>Explore our collections</h1>
+  
+  <div class="category-filter">
+    <button>All</button>
+    <button>Trending Collections</button>
+    <button>Offers</button>
+    <button>Combos</button>
+  </div>
+  
+  <div class="collection-cards">
+    <div class="collection-card men">
+      <div class="collection-title">Men</div>
+    </div>
+    <div class="collection-card women">
+      <div class="collection-title">Women</div>
+    </div>
+    <div class="collection-card accessories">
+      <div class="collection-title">Accessories</div>
+    </div>
+    <div class="collection-card sale">
+      <div class="collection-title">Sale</div>
+    </div>
+  </div>
+</section>
+
+<section class="product-section">
+  <h2>New Arrivals</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/320105690/UG/MH/AX/192039720/mens-wear.jpeg" alt="Product 1">
+      <h3>Tom Ford</h3>
+      <p class="product-name">Formal Suit</p>
+      <p class="product-price">$60</p>
+      <div class="stars">★ ★ ★ ☆ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGUncHFVPitENqYkbOQJEW00VtUC83fdeZg&s" alt="Product 2">
+      <h3>Canali</h3>
+      <p class="product-name">Long Coat</p>
+      <p class="product-price">$45</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i.pinimg.com/736x/f1/69/77/f169773e34e2d590cd87173be605ef18.jpg" alt="Product 3">
+      <h3>Gucci</h3>
+      <p class="product-name">Formal wear</p>
+      <p class="product-price">$30</p>
+      <div class="stars">★ ★ ★ ☆ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://www.beatitude.in/cdn/shop/articles/DSC_2173_720x_dec1d27e-c2a7-4ce7-8b21-654c0ca12e43_1024x.webp?v=1675162397" alt="Product 4">
+      <h3>Beatitude</h3>
+      <p class="product-name">Cotton Ethnic Wear</p>
+      <p class="product-price">$70</p>
+      <div class="stars">★ ★ ★ ★ ★</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://royalanarkali.com/wp-content/uploads/2021/08/maisha-womens-wear-cream-color-heavy-net-embroidered-stone-work-sharara-suit.jpg" alt="Product 5">
+      <h3>Maisha Women’s Wear</h3>
+      <p class="product-name"> Cream Color Heavy Net Embroidered Stone Work Sharara Suit</p>
+      <p class="product-price">$50</p>
+      <div class="stars">★ ★ ★ ☆ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.ajio.com/medias/sys_master/root/20231016/L6FL/652c5051afa4cf41f5466bdf/-473Wx593H-466711316-blue-MODEL.jpg" alt="Product 6">
+      <h3>Fashion 2 Wear</h3>
+      <p class="product-name">Floral Print Fit & Flare Dress</p>
+      <p class="product-price">$40</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.ajio.com/medias/sys_master/root/20230808/64OJ/64d1708ca9b42d15c995db50/-286Wx359H-466426991-grey-MODEL.jpg" alt="Product 7">
+      <h3>Hetvi Creation</h3>
+      <p class="product-name">Georgette frock</p>
+      <p class="product-price">$25</p>
+      <div class="stars">★ ★ ★ ☆ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://img.theloom.in/blog/wp-content/uploads/2024/02/thum12.png" alt="Product 8">
+      <h3>The Loom Blog</h3>
+      <p class="product-name">Embroided Frock</p>
+      <p class="product-price">$55</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.shauryasanadhya.com/cdn/shop/articles/one.jpg?v=1577337592" alt="Product 9">
+      <h3>Prada</h3>
+      <p class="product-name">Long Ethnic Wear</p>
+      <p class="product-price">$60</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://jokerandwitch.com/cdn/shop/products/JWBS898_1_400x.jpg?v=1679919551" alt="Product 10">
+      <h3>Pslam</h3>
+      <p class="product-name">Watch Bracelet Set</p>
+      <p class="product-price">$35</p>
+      <div class="stars">★ ★ ★ ☆ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://assets.ajio.com/medias/sys_master/root/20231116/tgk6/6555dc47afa4cf41f58cdffc/-473Wx593H-466804277-silver-MODEL2.jpg" alt="Product 11">
+      <h3>Thrillz</h3>
+      <p class="product-name">Diamond Pendant</p>
+      <p class="product-price">$50</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://www.buyhautesauce.com/cdn/shop/files/1_b819ebaa-2dba-4812-a00e-be18f3e692c2.jpg?v=1735818463&width=1080" alt="Product 12">
+      <h3>Gorje</h3>
+      <p class="product-name">Golden Watch</p>
+      <p class="product-price">$45</p>
+      <div class="stars">★ ★ ★ ★ ☆</div>
+      <button class="atc">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+<!--testimonial-->
+<section class="testimonials-section">
+  <h2>What Our Customers Say</h2>
+  <p class="subtitle">Real voices from real shoppers</p>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “Amazing shopping experience! The product quality is top-notch, and delivery was super quick.”
+      </p>
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User 1">
+      <h4>Priya Mehta</h4>
+      <p class="user-role">Fashion Enthusiast</p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “I love how easy it is to browse and buy. The combos and deals are worth it every time.”
+      </p>
+      <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="User 2">
+      <h4>Rahul Kapoor</h4>
+      <p class="user-role">Daily Shopper</p>
+    </div>
+
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        “This store has become my go-to for gifts. Stylish, affordable, and reliable service!”
+      </p>
+      <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="User 3">
+      <h4>Anita Sharma</h4>
+      <p class="user-role">Gift Curator</p>
+    </div>
+
+  </div>
+</section>
+<!--footer-->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left Section -->
+    <div class="footer-about">
+      <h2 class="logo">BLISSMART</h2>
+      <p>This is a shopping website with 24/7 professional support, and more.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Middle Section -->
+    <div class="footer-links">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">Men's Fashion</a></li>
+        <li><a href="#">Women's Fashion</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">Lookbook</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Section -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p><i class="fas fa-envelope"></i> info@blissmart.com</p>
+      <p><i class="fas fa-phone"></i> +91 9357294037</p>
+      <p><i class="fas fa-map-marker-alt"></i> Grand Trunk Road, Nellore.</p>
+      <form class="subscribe-form">
+        <input type="email" placeholder="E-mail">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
